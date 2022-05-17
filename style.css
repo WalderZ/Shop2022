@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header {
+    background-color: #222222;
+    display:flex;
+    justify-content: center;
+}
+.container-hadding {
+    height: 75px;
+    width: 1600px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    border: 1px solid rgb(3, 226, 3);
+    height: 38px;
+    width: 106px;
+    margin-left: 231px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu {
+    border: 1px solid rgb(6, 47, 230);
+    height: 29px;
+    width: 118px;
+    margin-right: 239px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header_brand {
+    background-color: #F1E4E6;
+    display:flex;
+    justify-content: center;
+}
+.container-brand {
+    height: 764px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    width: 1600px;
+    display:flex;
+    justify-content: space-between;
+}
+.brand-person {
+    width: 50%;
+    height: 100%;
+}
+.brand-title {
+    margin-right: 331px;
+    margin-top: 290px;
+    height: 93px;
+    width: 337px;
+    display: flex;   
+}
+.brand-title::before {
+    content: "";
+    background-color: #F16D7F;
+    height: 92px;
+    width: 12px;
+    margin-right: 16px;
+}
+.content {
+    display:flex;
+    justify-content: center;
+}
+.container-content {
+    border: 1px solid #000;
+    height: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    width: 1600px;
+}
