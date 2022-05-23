@@ -11,19 +11,20 @@
     align-items: center;
 }
 .header-logo {
-    border: 1px solid rgb(3, 226, 3);
     height: 38px;
     width: 106px;
     margin-left: 231px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 860px;
 }
 .header-menu {
-    border: 1px solid rgb(6, 47, 230);
     height: 29px;
-    width: 118px;
+    width: 159px;
     margin-right: 239px;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
 
 }
@@ -47,15 +48,16 @@
     margin-top: 290px;
     height: 93px;
     width: 337px;
-    display: flex;   
+    display: flex;
 }
-.brand-title::before {
+
+.text-900::before {
     content: "";
     background-color: #F16D7F;
     position: absolute;
     height: 92px;
     width: 12px;
-    margin-right: 16px;
+    left: -28px;
 }
 .content {
     display:flex;
