@@ -14,7 +14,7 @@ body {
 }
 .container-hadding {
     height: 75px;
-    width: 1600px;
+    width: 1140px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -22,20 +22,17 @@ body {
 .header-logo {
     height: 38px;
     width: 106px;
-    margin-left: 231px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-right: 860px;
+    margin-right: 875px;
 }
 .header-menu {
     height: 29px;
     width: 159px;
-    margin-right: 239px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-
 }
 .header_brand {
     background-color: #F1E4E6;
@@ -44,7 +41,7 @@ body {
 }
 .container-brand {
     height: 764px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-    width: 1600px;
+    width: 1140px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +56,6 @@ body {
     align-items: center;
     width: 377px;
     height: 93px;
-    margin-right: 330px;
 }
 .brand_title {
     font-size: 48px;
@@ -92,9 +88,49 @@ body {
     justify-content: center;
 }
 .container-content {
-    border: 1px solid #000;
-    height: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-    width: 1600px;
+    width: 1140px;
     margin-top: 65px;
 }
-
+.content-list {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-item {
+    border: 1px solid #000;
+    font-size: 16px;
+    line-height: 19.2px;
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.content-item_women {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/women_dark.jpg);
+}
+.content-item_men {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/men_dark.jpg);
+}
+.content-item_kids {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/kids_dark.jpg);
+}
+.content-item_accesories {
+    width: 1140px;
+    height: 180px;   
+    background-image: url(../img/accesories_dark.jpg);
+    margin-top: 30px;
+}
+.content-text_red {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
